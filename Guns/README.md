@@ -23,11 +23,18 @@ public Camera Camera;
 ```
 * The Sway.cs script adds this moving effect to the gun so whenever you move the camera the gun won't stay static.
 ```cs script
-
+// All of the variables are edited by you in the editor, just test until you find something good.
+public float Amount;
+public float Smooth_Amount;
+public Vector3 Initial_Position;
 ```
 * The Aim.cs script is just a simple script that updates the Gun Object position when clicked the right mouse button.
 ```cs script
-
+// Change the position up to your gun centering point.
+public Vector3 Aim_Position;
+public float Aim_Speed = 5;
+bool isAiming = false;
+bool Aiming = false;
 ```
 
 ---
