@@ -1,10 +1,8 @@
 using UnityEngine;
 using System.Collections;
 
-namespace UnityChan
-{
-	public class SpringManager : MonoBehaviour
-	{
+namespace UnityChan {
+	public class SpringManager : MonoBehaviour {
 		public float dynamicRatio = 1.0f;
 		public float			stiffnessForce;
 		public AnimationCurve	stiffnessCurve;
