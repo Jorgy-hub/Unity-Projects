@@ -9,4 +9,9 @@ First Person Controller Scripts:
 * FirstPersonCamera.cs is just a script that needs to be dragged to the camera to follow the mouse movement.
 * FirstPersonController.cs is just basic first person movement connecting with the Guns scripts.
 
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
+There's pretty much no code recommendations here, just read all the code and see if there's something for you, gl!
+
+---
+<div align=center>
+  <img src="https://forthebadge.com/images/badges/made-with-c-sharp.svg" />
+</div>
