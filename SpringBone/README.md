@@ -9,5 +9,7 @@ Don't edit anything of this files, they work just perfectly, just modify your va
 
 ---
 <div align=center>
+  <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
   <img src="https://forthebadge.com/images/badges/made-with-c-sharp.svg" />
+  <img src="https://forthebadge.com/images/badges/powered-by-qt.svg" />
 </div>
