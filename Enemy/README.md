@@ -29,5 +29,7 @@ There's just a few stuff on Enemy cause I haven't needed a lot but you can sugge
 
 ---
 <div align=center>
+  <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
   <img src="https://forthebadge.com/images/badges/made-with-c-sharp.svg" />
- </div>
+  <img src="https://forthebadge.com/images/badges/powered-by-qt.svg" />
+</div>
