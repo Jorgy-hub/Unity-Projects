@@ -5,4 +5,9 @@ In this folder we have the spring bones which are used to give animations to mov
 * SpringBoneManager.cs like the name says is the manager and all the SpringBones need to be configured there.
 * SpringBoneCollider.cs is just a script to prevent collision with other stuff.
 
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
+Don't edit anything of this files, they work just perfectly, just modify your values in the editor.
+
+---
+<div align=center>
+  <img src="https://forthebadge.com/images/badges/made-with-c-sharp.svg" />
+</div>
