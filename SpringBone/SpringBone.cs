@@ -3,8 +3,7 @@ using System.Collections;
 
 namespace UnityChan
 {
-	public class SpringBone : MonoBehaviour
-	{
+	public class SpringBone : MonoBehaviour {
 		public Transform child;
 		public Vector3 boneAxis = new Vector3 (-1.0f, 0.0f, 0.0f);
 		public float radius = 0.05f;
@@ -23,13 +22,13 @@ namespace UnityChan
 		private Transform org;
 		private SpringManager managerRef;
 
-		private void Awake (){
+		private void Awake () {
 			trs = transform;
 			localRotation = transform.localRotation;
 			managerRef = GetParentSpringManager (transform);
 		}
 
-		private SpringManager GetParentSpringManager (Transform t){
+		private SpringManager GetParentSpringManager (Transform t) {
 			var springManager = t.GetComponent<SpringManager> ();
 
 			if (springManager != null)
@@ -42,13 +41,13 @@ namespace UnityChan
 			return null;
 		}
 
-		private void Start (){
+		private void Start () {
 			springLength = Vector3.Distance (trs.position, child.position);
 			currTipPos = child.position;
 			prevTipPos = child.position;
 		}
-
-		public void UpdateSpring (){
+ 
+		public void UpdateSpring () {
 			org = trs;
 			trs.localRotation = Quaternion.identity * localRotation;
 			float sqrDt = Time.deltaTime * Time.deltaTime;
@@ -72,7 +71,7 @@ namespace UnityChan
 			trs.rotation = Quaternion.Lerp (org.rotation, secondaryRotation, managerRef.dynamicRatio);
 		}
 
-		private void OnDrawGizmos (){
+		private void OnDrawGizmos () {
 			if (debug) {
 				Gizmos.color = Color.yellow;
 				Gizmos.DrawWireSphere (currTipPos, radius);
