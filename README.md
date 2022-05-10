@@ -12,5 +12,7 @@ In case you want to learn a bit more or need a small help with your games I'm le
  
 ---
 <div align=center>
+  <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
   <img src="https://forthebadge.com/images/badges/made-with-c-sharp.svg" />
- </div>
+  <img src="https://forthebadge.com/images/badges/powered-by-qt.svg" />
+</div>
