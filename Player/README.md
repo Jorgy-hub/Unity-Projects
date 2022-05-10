@@ -13,5 +13,7 @@ There's pretty much no code recommendations here, just read all the code and see
 
 ---
 <div align=center>
+  <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
   <img src="https://forthebadge.com/images/badges/made-with-c-sharp.svg" />
+  <img src="https://forthebadge.com/images/badges/powered-by-qt.svg" />
 </div>
