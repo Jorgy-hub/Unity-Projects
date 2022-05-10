@@ -25,6 +25,8 @@ public float Damage = 20;
 bool Colliding = false;
 ```
 
+There's just a few stuff on Enemy cause I haven't needed a lot but you can suggest more stuff for me to add!
+
 ---
 <div align=center>
   <img src="https://forthebadge.com/images/badges/made-with-c-sharp.svg" />
