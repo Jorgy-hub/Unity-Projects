@@ -39,5 +39,5 @@ bool Aiming = false;
 
 ---
 <div align=center>
-  <img src="https://forthebadge.com/images/badges/made-with-c-sharp.svg" />
+  <img src="https://forthebadge.com/images/badges/made-with-c-plus-plus.svg" />
 </div>
